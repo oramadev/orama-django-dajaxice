@@ -1,6 +1,6 @@
 import logging
 
-from importlib import import_module
+from django.utils.importlib import import_module
 
 log = logging.getLogger('dajaxice')
 
